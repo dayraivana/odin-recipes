@@ -1,0 +1,44 @@
+/* color, background color, typography properties, etc */
+
+*{
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    font-size: 50px;
+}
+
+#first {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.lists {
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: 20px;
+}
+
+a:visited, h2 {
+    color: #AF69EE;
+    background-color: #404040;
+}
+
+.desc{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8899A6;
+    font-size: larger;
+
+}
+
+img {
+    height: auto;
+    width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
