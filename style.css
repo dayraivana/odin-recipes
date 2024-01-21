@@ -1,36 +1,49 @@
 /* color, background color, typography properties, etc */
 
-*{
-    background-color: black;
+#first {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #184023;
+    font-size: 120px;
+
 }
+
+.recipes {
+    
+    text-align: center;
+    color: #EEEEEE;
+    margin: 50px;
+    
+
+  }
+  h2{
+    margin-bottom: 10px;
+    background-color: #659471;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aquamarine;
+    color: #184023;
     font-size: 50px;
-}
-
-#first {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    font-size: 100px;
+    text-align: center;
 }
 
 .lists {
     font-family: 'Times New Roman', Times, serif;
-    color: bisque;
     font-size: 20px;
 }
 
-a:visited, h2 {
-    color: #AF69EE;
-    background-color: #404040;
+a:visited, .subtitulo {
+    color: #184023;
 }
 
 .desc{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #8899A6;
-    font-size: larger;
+    font-size: 20px;
+    margin: 10px;
 
 }
 
@@ -42,3 +55,9 @@ img {
     margin-right: auto;
 }
 
+.subtitulo {
+    background-color: #78cf8f;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
